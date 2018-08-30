@@ -1,0 +1,218 @@
+*{
+    font-size: 33px;
+    box-sizing: border-box;
+   
+}
+a{
+    transition: backgrond-color 0.3s;
+    text-decoration: none;
+}
+body{
+    background-image:url('../imagens/fundo2.jpg') 
+}
+a:hover{
+    color: #22e2a2;
+}
+
+
+main{
+    display:flex;
+}
+header img{
+  width: 17vw;
+}
+/*começo do lado esquerdo  */
+header h1{
+    color: #22e2a2;
+font-size: 2em;
+}
+header h2{
+    font-size: 1em;
+}
+header ul{
+    list-style-type: none;
+}
+.esquerdo{
+    padding: 2%;
+    width: 49%;
+    border-right: solid 2px #000;
+}
+p{
+    font-size:28px;
+}
+
+.formacoes h2{
+    font-size: 32px;
+    color: #22e2a2;
+}
+.formacoes li{
+    font-size: 32px;
+}
+.formacoes h2 img{
+    width: 2vw;
+}
+li span{
+    color: #22e2a2;
+}
+
+/* fim do lado esquerdo */
+
+/* começo do lado direito */
+.direito{
+    padding: 2%;
+    width: 49%;
+}
+.habilidades li img{
+    width: 2vw; 
+}
+.habilidades ul{
+    list-style-type: none;
+}
+.habilidades H2{
+    color: #22e2a2;
+}
+.habilidades h2 img{
+width: 2vw;
+}
+h2{
+    font-size: 43px;
+}
+.linha{
+    width: 50%;
+    border-bottom: solid 2px #000;
+}
+.divisor{
+
+}
+.experiencia h2{
+    font-size: 36px;
+    color: #22e2a2;
+}
+.experiencia h2 img{
+    width: 2vw;
+    
+}
+.experiencia ul{
+    list-style-type: none;
+}
+.experiencia li img{
+    width: 2vw;
+}
+.contato h2{
+    color: #22e2a2;
+}
+.contato h2 img{
+    width: 2vw;
+}
+.contato ul{
+    list-style-type: none;
+}
+.contato li img{
+    width: 2vw; 
+}
+
+/* fim do lado direito */
+/* inicio da quebra */
+@media (max-width:960px){
+    *{
+        font-size: 19px;
+    }
+    header h1{
+        font-size: 31px;
+    }
+  p{
+      font-size: 24px;
+  }
+  .formacoes h2{
+    font-size:28px;
+  }
+.formacoes li {
+    font-size: 29px;
+}
+  .experiencia h2{
+    font-size:24px;
+  }
+  .contato h2{
+      font-size: 24px;
+  }
+.habilidades h2{
+    font-size: 29px;
+}
+}
+
+@media (max-width:720px){
+*{
+    display: flex;
+    flex-direction: column;
+    font-size: 14px;
+}
+
+header h1{
+    font-size:24px;
+}
+.esquerdo{
+    border-right: none;
+}
+p {
+    font-size: 21px;
+}
+.linha{
+    width: 150%;
+    border-bottom: solid 2px #000;
+}
+.formacoes h2 img{
+    width: 7vw;
+}
+.formacoes li {
+    font-size: 15px;
+}
+.habilidades h2 img{
+    width: 7vw;
+    }
+    .habilidades li img{
+        width: 7vw; 
+    }
+    .experiencia h2 {
+        font-size: 32px;
+    }
+.experiencia h2 img{
+    width: 7vw;
+}
+.experiencia li img{
+    width: 7vw;
+}
+.contato h2 img{
+    width: 7vw;
+}
+.contato li img{
+    width: 7vw; 
+}
+
+}
+@media (max-width:360px){
+    *{
+        font-size: 20px;
+        align-items: center;
+        text-align:center;
+    }
+    header img{
+        width: 30vw;
+        text-align: center;
+      }
+      .formacoes h2{
+        font-size:30px;
+      }
+      .habilidades h2{
+        font-size:36px;
+      }
+      header li{
+          font-size: 13px;
+      }
+      li{
+          font-size: 16px;
+      }
+      .formacoes li {
+        font-size: 16px;
+      }
+    }
+    /* fim da quebra */
